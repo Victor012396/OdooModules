@@ -3,7 +3,7 @@
 
     <!-- explicit list view definition -->
 
-    <record model="ir.ui.view" id="redom.list">
+    <!-- <record model="ir.ui.view" id="redom.list">
       <field name="name">redom list</field>
       <field name="model">redom.model</field>
       <field name="arch" type="xml">
@@ -15,21 +15,21 @@
           <field name="gender"/>
         </tree>
       </field>
-    </record>
+    </record> -->
 
 
     <!-- actions opening views on models -->
 
-    <record model="ir.actions.act_window" id="redom.action_window">
+   <!--  <record model="ir.actions.act_window" id="redom.action_window">
       <field name="name">redom window</field>
       <field name="res_model">redom.model</field>
       <field name="view_mode">tree,form</field>
-    </record>
+    </record> -->
 
 
     <!-- server action to the one above -->
 
-    <record model="ir.actions.server" id="redom.action_server">
+    <!-- <record model="ir.actions.server" id="redom.action_server">
       <field name="name">redom server</field>
       <field name="model_id" ref="model_redom_redom"/>
       <field name="state">code</field>
@@ -40,12 +40,12 @@
           "res_model": model._name,
         }
       </field>
-    </record>
+    </record> -->
 
 
     <!-- Top menu item -->
 
-    <menuitem name="redom" id="redom.menu_root"/>
+    <menuitem name="RedOM8" id="redom.menu_root" sequence="0"/>
 
     <!-- menu categories -->
 
@@ -54,10 +54,10 @@
 
     <!-- actions -->
 
-    <menuitem name="List" id="redom.menu_1_list" parent="redom.menu_1"
+   <!--  <menuitem name="List" id="redom.menu_1_list" parent="redom.menu_1"
               action="redom.action_window"/>
     <menuitem name="Server to list" id="redom" parent="redom.menu_2"
               action="redom.action_server"/>
-
+ -->
   </data>
 </odoo>
