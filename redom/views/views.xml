@@ -1,5 +1,6 @@
 <odoo>
   <data>
+
     <!-- explicit list view definition -->
 <!--
     <record model="ir.ui.view" id="redom.list">
@@ -41,14 +42,14 @@
 -->
 
     <!-- Top menu item -->
-<!--
+
     <menuitem name="redom" id="redom.menu_root"/>
--->
+
     <!-- menu categories -->
-<!--
+
     <menuitem name="Menu 1" id="redom.menu_1" parent="redom.menu_root"/>
     <menuitem name="Menu 2" id="redom.menu_2" parent="redom.menu_root"/>
--->
+
     <!-- actions -->
 <!--
     <menuitem name="List" id="redom.menu_1_list" parent="redom.menu_1"
